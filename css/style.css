@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Montserrat", sans-serif, "Times New Roman";
   line-height: 1.2;
   overflow-x: hidden;
   width: 100%;
@@ -91,7 +91,7 @@ nav ul li a {
 }
 .my-hello span:hover {
   display: inline-block;
-  transform: translateY(-5px);
+  transform: translateY(-3px);
 }
 
 .resume-button {
@@ -271,6 +271,11 @@ nav ul li a {
   #button-for-all-devices {
     display: inline-block;
   }
+  #exit-hamburger {
+    display: inline-block;
+    color: #fff;
+    font-size: 2rem;
+  }
 
   .header-container {
     padding-left: 100px;
@@ -283,7 +288,7 @@ nav ul li a {
     position: fixed;
     right: 0;
     top: 63px;
-    width: 25%;
+    width: 100%;
   }
   .my-hello {
     font-size: 3.5rem;
@@ -459,3 +464,6 @@ input[type="checkbox"]:checked + label {
 }
 
 /*contact-form-container*/
+#exit-hamburger {
+  display: none;
+}
