@@ -37,7 +37,7 @@
           </li>
 
           <li>
-            <a href="#projects-link-to-projects">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -160,53 +160,70 @@
       </div>
     </div>
     <!--end projects-->
-    <!--contact form-->
 
+    <!--end contact form-->
     <div
-      data-aos="fade-in"
-      data-aos-delay="200"
-      id="projects-link-to-projects"
-      class="the-container"
+      id="contact"
+      data-aos="fade-up"
+      data-aos-delay="100"
+      class="container-contact"
     >
-      <div class="row">
-        <h1>Contact</h1>
-      </div>
-      <div class="row">
-        <h4 style="text-align: center">i'd love to hear from you!</h4>
-      </div>
-      <div class="row input-container">
-        <div class="col-xs-12">
-          <div class="styled-input wide">
-            <input type="text" required />
-            <label>Name</label>
-          </div>
+      <h1 class="contact-branding"><span>Ignacio</span> web | design</h1>
+      <div class="contact-container-for-portfolio">
+        <div class="left-side-container-contact-from-me">
+          <h3>Direct contact</h3>
+          <ul>
+            <li><i class="fas fa-phone"></i> (346) 212-8318</li>
+            <li>
+              <i class="fas fa-envelope-open-text"></i> ignacio13542@gmail.com
+            </li>
+          </ul>
         </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="styled-input">
-            <input type="text" required />
-            <label>Email</label>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="styled-input" style="float: right">
-            <input type="text" required />
-            <label>Phone Number</label>
-          </div>
-        </div>
-        <div class="col-xs-12">
-          <div class="styled-input wide">
-            <textarea required></textarea>
-            <label>Message</label>
-          </div>
-        </div>
-        <div class="col-xs-12">
-          <div class="btn-lrg submit-btn">Send Message</div>
+        <div class="right-side-container-contact-me">
+          <form>
+            <p>
+              <label>name</label>
+              <input type="text" name="name" required />
+            </p>
+            <p>
+              <label>Company</label>
+              <input type="email" name="company" />
+            </p>
+            <p>
+              <label>Email</label>
+              <input type="email" name="email" required />
+            </p>
+            <p>
+              <label>Phone Number</label>
+              <input type="text" name="phone" />
+            </p>
+            <p class="full">
+              <label>Message</label>
+              <textarea
+                required
+                name="Message"
+                id=""
+                cols="20"
+                rows="5"
+              ></textarea>
+            </p>
+            <p class="full">
+              <button>Submit</button>
+            </p>
+          </form>
         </div>
       </div>
     </div>
 
-    <!--end contact form-->
-
+    <footer class="footer">
+      <small
+        >&copy; Copyright
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        , Ignacio</small
+      >
+    </footer>
     <!--scripts-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
