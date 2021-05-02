@@ -5,7 +5,7 @@ let navbarHere = document.getElementById("this-navbar");
 let prevScrollpos = window.pageYOffset;
 /*lets*/
 /*navbar fadein and fade out*/
-window.onscroll = function () {
+/*window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     navbarHere.style.top = "";
@@ -14,9 +14,8 @@ window.onscroll = function () {
   }
   prevScrollpos = currentScrollPos;
 }; /*end match media*/
-/*navbar for mobile*/ let button = document.getElementById(
-  "button-for-all-devices"
-);
+/*navbar for mobile*/
+let button = document.getElementById("button-for-all-devices");
 
 button.addEventListener("click", () => {
   if (ul.style.display === "none") {
