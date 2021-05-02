@@ -33,7 +33,59 @@ a {
   font-size: 2rem;
 }
 /*animation*/
-
+/*scroll bar*/
+::-webkit-scrollbar {
+  width: 0;
+}
+#scrollPath {
+  position: fixed;
+  top: 25px;
+  right: 0;
+  width: 10px;
+  height: 100%;
+}
+#progressbar {
+  z-index: 101;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%; /*
+  background-image: linear-gradient(135deg, #ffd26f 10%, #3677ff 100%);*/
+  background-image: linear-gradient(135deg, #7058a3 10%, #c186eb 100%);
+  /* background: linear-gradient(to top, #008aff, #00ffe7);*/
+  animation: progressbar-animate 5s linear infinite;
+}
+@keyframes progressbar-animate {
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
+#progressbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(red, blue);
+  filter: blur(10px);
+}
+#progressbar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(red, blue);
+  filter: blur(30px);
+}
+/*end scroll bar*/
 /*nav*/
 
 .header-container {
@@ -48,10 +100,12 @@ a {
   padding: 100px;
   overflow-x: hidden;
 }
-.navbar ul li:hover {
-  background-color: aliceblue;
+.navbar ul li a:hover {
+  background-color: #ff7a59;
   cursor: pointer;
+  color: #fff;
 }
+
 .navbar {
   background-color: #f8f8f8;
   color: #000;
@@ -75,6 +129,9 @@ nav ul {
   display: inline-block;
 }
 .navbar ul li {
+  margin-top: 10px;
+}
+.navbar ul li a {
   padding: 10px;
 }
 nav ul li a {
@@ -116,7 +173,7 @@ nav ul li a {
 /**/
 /**/
 .big-container-projects {
-  background-color: #f8f8f8;
+  background-color: #f8f6f6;
   padding-top: 80px;
   padding-bottom: 80px;
   color: #333;
@@ -247,7 +304,9 @@ nav ul li a {
   #button-for-all-devices {
     display: inline-block;
   }
-
+  .navbar ul li {
+    padding: 5px;
+  }
   .header-container {
     padding-left: 100px;
   }
@@ -304,7 +363,7 @@ nav ul li a {
 
 /*start contact form*/
 .container-contact {
-  background-image: linear-gradient(#48c6ef, #6f86d6);
+  background: #c2c3cc;
   color: #485e74;
   padding-bottom: 40px;
 }

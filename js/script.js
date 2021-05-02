@@ -25,3 +25,11 @@ button.addEventListener("click", () => {
   }
 });
 /*end navbar for mobile*/
+/*progress bar*/
+let progress = document.getElementById("progressbar");
+let totalHeight = document.body.scrollHeight - window.innerHeight;
+window.onscroll = () => {
+  let progressHeight = (window.pageYOffset / totalHeight) * 100;
+  progress.style.height = progressHeight + "%";
+};
+/*end progress bar*/
