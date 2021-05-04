@@ -1,3 +1,9 @@
+/*start loader*/
+$(window).on("load", () => {
+  $(".loader-page-wrapper").fadeOut("slow");
+});
+
+/*end loader*/
 /*lets*/
 let ul = document.getElementById("just-for-button-onclick");
 let navbarElements = document.querySelector(".just-for-button-onclick-class");
