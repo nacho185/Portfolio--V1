@@ -4,6 +4,18 @@ $(window).on("load", () => {
 });
 
 /*end loader*/
+/*add span tag to each heading letter*/
+$("#my-helo-spans").each(function (index) {
+  var characters = $(this).text().split("");
+
+  $this = $(this);
+  $this.empty();
+  $.each(characters, function (i, el) {
+    $this.append("<span>" + el + "</span");
+  });
+});
+/*add span tag to each heading letter*/
+
 /*lets*/
 let ul = document.getElementById("just-for-button-onclick");
 let navbarElements = document.querySelector(".just-for-button-onclick-class");
