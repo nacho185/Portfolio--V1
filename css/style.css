@@ -210,6 +210,7 @@ a {
   display: flex;
   justify-content: space-around;
   z-index: 995;
+
   border-bottom: 1px solid gray;
 }
 .navbar ul {
@@ -294,6 +295,12 @@ nav ul li a {
 @media (max-width: 540px) {
   .animation-area-text h1 {
     font-size: 2rem;
+  }
+  .animation-area {
+    overflow-x: hidden;
+  }
+  .wrapper-for-all-projects {
+    overflow-x: hidden;
   }
 }
 
