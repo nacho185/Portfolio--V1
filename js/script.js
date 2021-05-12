@@ -1,6 +1,6 @@
 /*start loader*/
 $(window).on("load", () => {
-  $(".loader-page-wrapper").fadeOut("slow");
+  $(".loader-container").fadeOut("slow");
 });
 
 /*end loader*/
