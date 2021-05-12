@@ -5,7 +5,7 @@ $(window).on("load", () => {
 
 /*end loader*/
 /*add span tag to each heading letter*/
-$("#my-helo-spans").each(function (index) {
+$("#my-hello-spans").each(function (index) {
   var characters = $(this).text().split("");
 
   $this = $(this);

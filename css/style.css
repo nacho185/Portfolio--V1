@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Montserrat", sans-serif, "Times New Roman";
+  font-family: "Roboto", sans-serif;
   line-height: 1.2;
   overflow-x: hidden;
   width: 100%;
@@ -27,6 +27,7 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
 /*end global*/
 #button-for-all-devices {
   display: none;
@@ -186,7 +187,7 @@ a {
   text-decoration: none;
 }
 .media-links .fab:hover {
-  color: #ff7a59;
+  color: #2680c2;
 }
 .nav-tag-nav-bar .fab {
   font-size: 1.7rem;
@@ -195,7 +196,7 @@ a {
 }
 
 .navbar ul li a:hover {
-  background-color: #ff7a59;
+  background-color: #2680c2;
   cursor: pointer;
   color: #fff;
 }
@@ -226,6 +227,7 @@ nav ul {
 
 .navbar ul li a {
   padding: 10px;
+  font-weight: 500;
 }
 nav ul li a {
   color: #000;
@@ -270,7 +272,7 @@ nav ul li a {
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 }
 .animation-area-text a:hover {
-  background-color: #ff7a59;
+  background-color: #2680c2;
   cursor: pointer;
 }
 .animation-area-text h1 {
@@ -393,7 +395,7 @@ nav ul li a {
 }
 /**/
 .portfolio-intro h1 {
-  color: #fff;
+  color: #333333;
   text-align: center;
   font-size: 3rem;
   padding: 50px 0 40px 0;
@@ -405,7 +407,7 @@ nav ul li a {
   --clr-neutral-400: hsl(142, 90%, 61%);
 }
 .wrapper-for-all-projects {
-  background: var(--clr-neutral-900);
+  background: #ddd;
   padding: 0 0 60px 0;
 }
 
@@ -434,7 +436,7 @@ nav ul li a {
 }
 .card-6 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/img/tubeimg.PNG");
+    url("../assets/img/Google clone.PNG");
 }
 /*single cards*/
 .project-container {
