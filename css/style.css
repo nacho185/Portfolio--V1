@@ -525,6 +525,12 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  .animation-area {
+    max-height: 600px;
+  }
+  .box-area {
+    max-height: 600px;
+  }
 }
 @media (max-width: 725px) {
   .project-container {
