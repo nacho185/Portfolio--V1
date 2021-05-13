@@ -1,3 +1,9 @@
+:root {
+  --clr-neutral-900: hsl(207, 19%, 9%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-400: hsl(142, 90%, 61%);
+}
+
 /*global*/
 * {
   padding: 0;
@@ -27,7 +33,19 @@ a {
   display: flex;
   justify-content: space-between;
 }
-
+/*icons*/
+.fa-html5 {
+  color: rgb(251, 79, 20);
+}
+.fa-css3-alt {
+  color: rgb(30, 144, 255);
+}
+.fa-js {
+  color: rgb(253, 255, 0);
+}
+.fa-react {
+  color: #3498db;
+}
 /*end global*/
 #button-for-all-devices {
   display: none;
@@ -394,16 +412,15 @@ nav ul li a {
   letter-spacing: 5px;
 }
 
-:root {
-  --clr-neutral-900: hsl(207, 19%, 9%);
-  --clr-neutral-100: hsl(0, 0%, 100%);
-  --clr-neutral-400: hsl(142, 90%, 61%);
-}
 .wrapper-for-all-projects {
   background: #1b1d1f;
   padding: 0 0 60px 0;
 }
-
+.technologies-used {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
 /*card*/
 /*single cards*/
 .card-1 {
@@ -413,7 +430,7 @@ nav ul li a {
 .card-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("../assets/img/weatherimg.PNG");
-  background-position: center;
+  background-position: left;
 }
 .card-3 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -453,6 +470,7 @@ nav ul li a {
   border-radius: 0.5rem;
   overflow: hidden;
   transition: transform 0.5s ease;
+  text-align: center;
 }
 .card-content {
   --padding: 1.5rem;
