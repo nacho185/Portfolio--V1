@@ -410,6 +410,9 @@ nav ul li a {
   font-size: 3rem;
   padding: 50px 0 40px 0;
   letter-spacing: 5px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
 }
 
 .wrapper-for-all-projects {
@@ -617,6 +620,9 @@ nav ul li a {
 @media (max-width: 375px) {
   .navbar {
     color: #333;
+  }
+  .card-1 h2 {
+    font-size: 1.3rem;
   }
 }
 /*end media queries*/
