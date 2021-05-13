@@ -403,16 +403,13 @@ nav ul li a {
     opacity: 0;
   }
 }
-/**/
+
 .portfolio-intro h1 {
   color: #fff;
   text-align: center;
   font-size: 3rem;
   padding: 50px 0 40px 0;
   letter-spacing: 5px;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #fff;
 }
 
 .wrapper-for-all-projects {
