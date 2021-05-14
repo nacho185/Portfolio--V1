@@ -216,9 +216,12 @@ a {
   cursor: pointer;
   color: #fff;
 }
-
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
 .navbar {
-  background-color: #f8f8f8;
+  /*background-color: #f8f8f8;*/
   color: #000;
   padding: 12px;
   position: fixed;
@@ -228,7 +231,7 @@ a {
   justify-content: space-around;
   z-index: 995;
 
-  border-bottom: 1px solid gray;
+  /*border-bottom: 1px solid gray;*/
 }
 .navbar ul {
   display: flex;
