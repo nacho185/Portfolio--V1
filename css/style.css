@@ -41,10 +41,16 @@ a {
   color: rgb(30, 144, 255);
 }
 .fa-js {
-  color: rgb(253, 255, 0);
+  color: rgb(223, 223, 29);
 }
 .fa-react {
   color: #3498db;
+}
+.fa-sass {
+  color: rgb(235, 118, 182);
+}
+.fa-git-square {
+  color: rgb(228, 105, 49);
 }
 /*end global*/
 #button-for-all-devices {
@@ -403,7 +409,39 @@ nav ul li a {
     opacity: 0;
   }
 }
+/*skills*/
+.skills-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #323232;
+  padding: 10px 0;
+}
+.skills-wrapper .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 40px 0px 50px 70px;
+  justify-items: center;
+  row-gap: 5rem;
+}
+.skills-wrapper .container .fab {
+  font-size: 5rem;
+}
+.skills-wrapper .container .fab:hover {
+  transform: scale(102%);
+}
+.skills-header h2 {
+  font-size: 2rem;
+  border-bottom: solid 3px #b6a9a9;
+  display: inline-block;
+  color: #dadada;
+  padding: 0 2px;
+  margin: 2rem 0 0 5rem;
+}
 
+/*end skills*/
+
+/*portfolio*/
 .portfolio-intro h1 {
   color: #fff;
   text-align: center;
