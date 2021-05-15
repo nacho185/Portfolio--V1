@@ -144,7 +144,6 @@ a {
 }
 #scrollPath {
   position: fixed;
-  top: 25px;
   right: 0;
   width: 10px;
   height: 100%;
@@ -458,6 +457,7 @@ nav ul li a {
     margin-left: 30px;
   }
 }
+
 /*end skills*/
 /*portfolio*/
 .portfolio-intro h1 {
@@ -719,6 +719,18 @@ nav ul li a {
     flex-direction: column;
   }
   .contact-wrapper .container div:hover {
+  }
+}
+@media (max-width: 425px) {
+  .contact-header {
+    text-align: center;
+  }
+  .contact-wrapper .container {
+    margin-left: 30px;
+  }
+  .contact-header h1 {
+    font-size: 1.4rem;
+    margin: 50px 0 0 0;
   }
 }
 /*end contact*/
