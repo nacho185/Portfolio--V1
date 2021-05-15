@@ -139,47 +139,25 @@ a {
 
 /*end  load*/
 /*scroll bar*/
+
+/* width */
 ::-webkit-scrollbar {
-  width: 0;
+  width: 11px;
 }
-#scrollPath {
-  position: fixed;
-  right: 0;
-  width: 10px;
-  height: 100%;
-  background: rgb(143, 141, 141);
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
-#progressbar {
-  z-index: 101;
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 10px;
-  height: 100%; /*
-  background-image: linear-gradient(135deg, #7058a3 10%, #c186eb 100%);*/
-  background: #f8f8f8;
-  animation: progressbar-animate 5s linear infinite;
-} /*
-#progressbar::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(red, blue);
-  filter: blur(10px);
-}*/
-#progressbar::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #ddd;
-  filter: blur(30px);
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /*background-image: linear-gradient(#13547a 0%, #3db1a3 100%);*/
+  border-radius: 10px;
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
 }
+
 /*end scroll bar*/
 /*nav*/
 .branding {
