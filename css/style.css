@@ -435,7 +435,11 @@ nav ul li a {
     margin-left: 30px;
   }
 }
-
+@media (max-width: 425px) {
+  .skills-header h2 {
+    margin-left: 10px;
+  }
+}
 /*end skills*/
 /*portfolio*/
 .portfolio-intro h1 {
@@ -610,7 +614,7 @@ nav ul li a {
     padding: 6px;
     margin: 10px;
   }
-  .navbar ul li:nth-child(3) {
+  .navbar ul li:nth-child(4) {
     padding-bottom: 15px;
   }
   .header-container {
