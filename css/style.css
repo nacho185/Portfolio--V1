@@ -154,8 +154,8 @@ a {
 ::-webkit-scrollbar-thumb {
   /*background-image: linear-gradient(#13547a 0%, #3db1a3 100%);*/
   border-radius: 10px;
-  background-color: #2a2a72;
-  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  background-color: #ff9c3c;
+  background-image: #ff9c3c;
 }
 
 /*end scroll bar*/
@@ -165,6 +165,7 @@ a {
 .branding-container {
   color: #555;
   font-family: "Dancing Script", cursive;
+  font-size: 1.1rem;
 }
 .branding-description {
   font-size: 1.2rem;
@@ -176,22 +177,25 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.media-links {
+  margin-right: 10px;
+}
 .media-links a {
   text-decoration: none;
 }
 .media-links .fab:hover {
-  color: #2680c2;
+  color: #ff9c3c;
 }
 .nav-tag-nav-bar .fab {
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: #000;
   margin-right: 10px;
 }
 
 .navbar ul li a:hover {
-  background-color: #2680c2;
+  background-color: #ff9c3c;
   cursor: pointer;
-  color: #fff;
+  color: #f8f8f8;
 }
 .navbar-fixed-top.scrolled {
   background-color: #fff !important;
@@ -224,6 +228,7 @@ nav ul {
 .navbar ul li a {
   padding: 10px;
   font-weight: 500;
+  letter-spacing: 0.5px;
 }
 nav ul li a {
   color: #000;
@@ -268,7 +273,7 @@ nav ul li a {
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 }
 .animation-area-text a:hover {
-  background-color: #2680c2;
+  background-color: #ff9c3c;
   cursor: pointer;
 }
 .animation-area-text h1 {
