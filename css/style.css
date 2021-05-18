@@ -2,6 +2,7 @@
   --clr-neutral-900: hsl(207, 19%, 9%);
   --clr-neutral-100: hsl(0, 0%, 100%);
   --clr-neutral-400: hsl(142, 90%, 61%);
+  --clr-neutral-200: #f36b21;
 }
 
 /*global*/
@@ -154,8 +155,8 @@ a {
 ::-webkit-scrollbar-thumb {
   /*background-image: linear-gradient(#13547a 0%, #3db1a3 100%);*/
   border-radius: 10px;
-  background-color: #ff9c3c;
-  background-image: #ff9c3c;
+  background-color: var(--clr-neutral-200);
+  background-image: var(--clr-neutral-200);
 }
 
 /*end scroll bar*/
@@ -184,7 +185,7 @@ a {
   text-decoration: none;
 }
 .media-links .fab:hover {
-  color: #ff9c3c;
+  color: var(--clr-neutral-200);
 }
 .nav-tag-nav-bar .fab {
   font-size: 2rem;
@@ -193,7 +194,7 @@ a {
 }
 
 .navbar ul li a:hover {
-  background-color: #ff9c3c;
+  background-color: var(--clr-neutral-200);
   cursor: pointer;
   color: #f8f8f8;
 }
