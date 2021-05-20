@@ -645,6 +645,9 @@ nav ul li a {
   background-color: rgba(255, 255, 255, 0.09);
   transition: background-color 0.05s linear;
 }
+.contact-03 .fas {
+  font-size: 5rem;
+}
 .contact-01 img {
   width: 100px;
 }
