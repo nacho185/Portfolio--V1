@@ -450,6 +450,7 @@ nav ul li a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+  height: auto;
 }
 .project-card:hover,
 .project-card:focus-within {
