@@ -645,12 +645,12 @@ nav ul li a {
   background-color: rgba(255, 255, 255, 0.09);
   transition: background-color 0.05s linear;
 }
-.contact-03 .fas {
-  font-size: 5rem;
+.contact-03 .fas,
+.contact-01 .fas {
+  font-size: 4.5rem;
+  color: #f8f8f8;
 }
-.contact-01 img {
-  width: 100px;
-}
+
 @media (max-width: 405px) {
   .contact-wrapper .container {
     display: flex;
