@@ -138,7 +138,7 @@ a {
   color: var(--clr-neutral-200);
 }
 .nav-tag-nav-bar .fab {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: #000;
   margin-right: 10px;
 }
@@ -362,7 +362,7 @@ nav ul li a {
   row-gap: 5rem;
 }
 .skills-wrapper .container .fab {
-  font-size: 5rem;
+  font-size: 4.5rem;
   transition: 0.2s;
 }
 
@@ -370,7 +370,7 @@ nav ul li a {
   transform: scale(1.1);
 }
 .skills-no-icon img {
-  width: 70px;
+  width: 65px;
   transition: 0.2s;
 }
 .skills-no-icon img:hover {
