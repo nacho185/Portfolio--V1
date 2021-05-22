@@ -372,6 +372,7 @@ nav ul li a {
 .skills-no-icon img {
   width: 65px;
   transition: 0.2s;
+  height: auto;
 }
 .skills-no-icon img:hover {
   transform: scale(1.1);
@@ -419,28 +420,28 @@ nav ul li a {
 /*single cards*/
 .card-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/img/ecommerceimg.PNG");
+    url("../assets/img/ecommerceimg.jpg");
 }
 .card-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/img/weatherimg.PNG");
+    url("../assets/img/weatherimg.jpg");
   background-position: left;
 }
 .card-3 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/img/netfliximg.PNG");
+    url("../assets/img/netfliximg.jpg");
 }
 .card-4 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/img/covidimg.PNG");
+    url("../assets/img/covidimg.jpg");
 }
 .card-5 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/img/cryptoimg.PNG");
+    url("../assets/img/cryptoimg.jpg");
 }
 .card-6 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/img/Google clone.PNG");
+    url("../assets/img/Google clone.jpg");
 }
 /*single cards*/
 .project-container {
@@ -457,7 +458,7 @@ nav ul li a {
 
 .project-card {
   color: var(--clr-neutral-100);
-  /*background-image: url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?cs=srgb&dl=pexels-negative-space-169573.jpg&fm=jpg");*/
+
   background-size: cover;
   padding: 10rem 0 0;
   max-width: 35ch;
