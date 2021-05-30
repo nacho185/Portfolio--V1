@@ -431,7 +431,7 @@ nav ul li a {
 }
 .card-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/img/weatherimg.jpg");
+    url("../assets/img/weatherimg.png");
   background-position: left;
 }
 .card-3 {
@@ -440,7 +440,7 @@ nav ul li a {
 }
 .card-4 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/img/covidimg.jpg");
+    url("../assets/img/covidimg.png");
 }
 .card-5 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
