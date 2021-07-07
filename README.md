@@ -5,7 +5,7 @@ I made this repository to allow you to experience my best projects in the form o
 
 Skills: HTML5 / CSS3 / JS(ES5/ES6) / JQUERY /SASS /React JS
 
-- 🔭 I’m currently working on coding proficiently in REACT JS, and building clean easy to read reusable components. 
+- 🔭 I’m currently working on coding proficiently in React JS, and building clean easy to read reusable components. 
 - ⚡ Fun fact: I love looking at the final product of each website and witnessing how it becomes responsive for every device. 
 
 
