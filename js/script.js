@@ -95,3 +95,11 @@ button.addEventListener("click", () => {
   }
 });
 /*end navbar for mobile*/
+//keep alink active
+$("#navContent a").click(function () {
+  /* remove class from prior active link*/
+  $(".activeLinkClass").removeClass("activeLinkClass");
+  /* "this" is current link clicked*/
+  $(this).addClass("activeLinkClass");
+});
+//end keep alink active

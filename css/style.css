@@ -142,11 +142,13 @@ a {
   color: #000;
   margin-right: 10px;
 }
-
+.activeLinkClass {
+  border-bottom: 2px solid var(--clr-neutral-200);
+  color: var(--clr-neutral-200);
+}
 .navbar ul li a:hover {
-  background-color: var(--clr-neutral-200);
   cursor: pointer;
-  color: #f8f8f8;
+  color: var(--clr-neutral-200);
 }
 .navbar-fixed-top.scrolled {
   background-color: #fff !important;
