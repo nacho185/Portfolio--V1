@@ -35,6 +35,12 @@ a {
   justify-content: space-between;
 }
 /*icons*/
+.skills-no-icon-no-icon-02-butFor-project{
+  
+}
+.skills-no-icon-no-icon-02-butFor-project-img{
+max-width: 25px;
+}
 .fa-wordpress{
   color: #103136;
 }
@@ -479,6 +485,7 @@ nav ul li a {
   overflow: hidden;
   transition: transform 0.5s ease;
   text-align: center;
+  max-height: 470px;
 }
 .card-content {
   --padding: 1.5rem;
