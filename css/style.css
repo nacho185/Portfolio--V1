@@ -35,6 +35,9 @@ a {
   justify-content: space-between;
 }
 /*icons*/
+.fa-wordpress{
+  color: #103136;
+}
 .fa-html5 {
   color: rgb(251, 79, 20);
 }
