@@ -458,12 +458,12 @@ nav ul li a {
 /*card*/
 /*single cards*/
 .card-1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/img/emailvalidation.PNG");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("");
 }
 .card-2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/img/weatherimg.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../assets/img/emailvalidation.png");
   background-position: left;
 }
 .card-3 {
@@ -471,8 +471,8 @@ nav ul li a {
     url("../assets/img/WeatherPPImage.png");
 }
 .card-4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/img/wordpress-Websiteecostrip.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("");
 }
 .card-5 {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
