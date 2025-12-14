@@ -459,7 +459,11 @@ nav ul li a {
 /*single cards*/
 .card-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("");
+    url("../assets/img/coming\ soon.png");
+  background-size: cover;     
+  background-position: center;   
+  background-repeat: no-repeat;
+  border-radius: 10px;           
 }
 .card-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
@@ -472,7 +476,11 @@ nav ul li a {
 }
 .card-4 {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("");
+    url("../assets/img/coming\ soon.png");
+    background-size: cover;     
+  background-position: center;   
+  background-repeat: no-repeat;
+  border-radius: 10px; 
 }
 .card-5 {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
