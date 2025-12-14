@@ -121,16 +121,17 @@ max-width: 25px;
 /*end scroll bar*/
 /*nav*/
 .branding {
+  font-size: 1.6rem;
 }
 .branding-container {
   color: #555;
-  font-family: "Dancing Script", cursive;
+  font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
 }
 .branding-description {
-  font-size: 1.2rem;
+  font-size: .9rem;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
 }
 .nav-tag-nav-bar {
   display: flex;
@@ -241,6 +242,7 @@ nav ul li a {
 .animation-area-text h1 {
   font-size: 4rem;
   color: #333;
+  padding-top: 90px;
 }
 
 @media (max-width: 1170px) {
