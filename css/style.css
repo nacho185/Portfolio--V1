@@ -475,12 +475,12 @@ nav ul li a {
     url("../assets/img/wordpress-Websiteecostrip.png");
 }
 .card-5 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/img/cryptoimg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../assets/img/cryptopimage.png");
 }
 .card-6 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/img/Google clone.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../assets/img/Datatcleaner.png");
 }
 /*single cards*/
 .project-container {
