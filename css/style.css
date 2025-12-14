@@ -3,6 +3,17 @@
   --clr-neutral-100: hsl(0, 0%, 100%);
   --clr-neutral-400: hsl(142, 90%, 61%);
   --clr-neutral-200: #f36b21;
+  --bg-top:#79C9C9;
+  --bg-bottom:#2F7F92;
+
+  --text:#24323A;
+  --text-muted:#5D6B73;
+
+  --accent:#E06B2D;
+  --accent-hover:#C85A24;
+
+  --white:#FFFFFF;
+  --square:rgba(255,255,255,.10);
 }
 
 /*global*/
@@ -102,7 +113,7 @@ max-width: 25px;
 
 /* width */
 ::-webkit-scrollbar {
-  width: 11px;
+  width: 10px;
 }
 
 /* Track */
@@ -113,9 +124,8 @@ max-width: 25px;
 /* Handle */
 ::-webkit-scrollbar-thumb {
   /*background-image: linear-gradient(#13547a 0%, #3db1a3 100%);*/
+  background: var(--accent);
   border-radius: 10px;
-  background-color: var(--clr-neutral-200);
-  background-image: var(--clr-neutral-200);
 }
 
 /*end scroll bar*/
@@ -132,6 +142,7 @@ max-width: 25px;
   font-size: .9rem;
   text-align: center;
   font-weight: 500;
+  color: var(--text);
 }
 .nav-tag-nav-bar {
   display: flex;
@@ -143,9 +154,10 @@ max-width: 25px;
 }
 .media-links a {
   text-decoration: none;
+  color: var(--text);
 }
 .media-links .fab:hover {
-  color: var(--clr-neutral-200);
+  color: var(--accent);
 }
 .nav-tag-nav-bar .fab {
   font-size: 1.6rem;
@@ -153,8 +165,8 @@ max-width: 25px;
   margin-right: 10px;
 }
 .activeLinkClass {
-  border-bottom: 2px solid var(--clr-neutral-200);
-  color: var(--clr-neutral-200);
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
 }
 .navbar ul li a:hover {
   cursor: pointer;
@@ -203,7 +215,10 @@ nav ul li a {
   background-color: transparent;
   position: relative;
   bottom: 50px;
+  color: var(--text) !important;
 }
+
+
 .my-hello span:hover {
   display: inline;
   -webkit-text-fill-color: transparent;
@@ -227,16 +242,18 @@ nav ul li a {
 .resume {
   cursor: pointer;
   border: 1px solid #3498db;
-  background-color: transparent;
+  
   padding: 5px 10px;
   border-radius: 40px;
   color: #fff;
   font-size: 1.5em;
   z-index: 901;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  background: var(--bg-top);
+  color: var(--white);
 }
 .resume:hover {
-  background-color: var(--clr-neutral-200);
+  background: var(--accent);
   cursor: pointer;
 }
 .animation-area-text h1 {
@@ -266,6 +283,7 @@ nav ul li a {
   }
   .animation-area {
     overflow-x: hidden;
+    background: linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
   }
   .wrapper-for-all-projects {
     overflow-x: hidden;
@@ -306,7 +324,7 @@ nav ul li a {
   list-style: none;
   width: 25px;
   height: 25px;
-  background: rgba(255, 255, 255, 0.2);
+  background: var(--square) !important;
   animation: animate 20s linear infinite;
   bottom: -150px;
 }
