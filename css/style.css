@@ -716,6 +716,35 @@ nav ul li a {
   font-size: 4.5rem;
   color: #f8f8f8;
 }
+.contact-04{
+  font-size: 4.5rem;
+  color: #f8f8f8;
+}
+/* Contact icons hover effects */
+.fa-envelope:hover {
+  color: #E34133; 
+  transition: 0.3s ease;
+}
+
+.fa-linkedin-in:hover {
+  color: #0A66C2; 
+  transition: 0.3s ease;
+}
+
+.fa-github:hover {
+  color: #ffffff;
+  opacity: 0.7; 
+  transition: 0.3s ease;
+}
+
+.fa-phone-square:hover {
+  color: #3EB489; 
+  transition: 0.3s ease;
+}
+.contact-wrapper .container i:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+    
 
 @media (max-width: 405px) {
   .contact-wrapper .container {
