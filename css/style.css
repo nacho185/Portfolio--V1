@@ -28,6 +28,8 @@ body {
   overflow-x: hidden;
   width: 100%;
   height: 100%;
+  max-width: none;
+  margin: 0 auto;
 }
 ul {
   padding: 0;
@@ -582,6 +584,7 @@ nav ul li a {
   background-color: var(--clr-neutral-100);
 }
 /*media queries*/
+
 @media (max-width: 1100px) {
   .project-container {
     display: grid;
@@ -770,6 +773,19 @@ nav ul li a {
     margin: 50px 0 0 0;
   }
 }
+@media (min-width: 2560px) {
+  body {
+    font-size: 18px !important; /* bump base font for readability */
+  }
+  h1, h2, h3 {
+    font-size: 1.2em; /* scale headings slightly */
+  }
+
+  .project-card {
+    transform: scale(1.05); /* make projects pop more */
+  }
+}
+
 /*end contact*/
 
 /*footer*/
