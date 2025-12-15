@@ -681,13 +681,16 @@ nav ul li a {
 .contact-wrapper {
   min-height: 400px;
   background: #103136;
-  padding: 60PX 0;
+  padding: 60px 0;
 }
 .contact-wrapper .container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 2rem 0 0 5rem;
+  justify-content: center;  
+  align-items: center;    
+  gap: 6rem;                 
+  flex-wrap: wrap;           
+  margin: 2rem auto;
+  text-align: center;
 }
 .contact-subtitle {
   text-align: center;
@@ -723,25 +726,23 @@ nav ul li a {
 /* Contact icons hover effects */
 .fa-envelope:hover {
   color: #E34133; 
-  transition: 0.3s ease;
 }
 
 .fa-linkedin-in:hover {
-  color: #0A66C2; 
-  transition: 0.3s ease;
+  color: #0A66C2;
 }
 
 .fa-github:hover {
-  color: #ffffff;
-  opacity: 0.7; 
-  transition: 0.3s ease;
+  color: #ffffff; /* Keep clean white */
+  opacity: 0.8;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
 
 .fa-phone-square:hover {
   color: #3EB489; 
-  transition: 0.3s ease;
 }
 .contact-wrapper .container i:hover {
+  transform: scale(1.05);
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
     
