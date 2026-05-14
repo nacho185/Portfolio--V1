@@ -534,10 +534,12 @@ nav ul li a {
 /*single cards*/
 .project-container {
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
+  max-width: 1200px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(3, 320px);
+  justify-content: center;
+  gap: 2rem;
   height: auto;
 }
 .project-card:hover {
