@@ -1,7 +1,7 @@
 :root {
   --clr-neutral-900: hsl(207, 19%, 9%);
   --clr-neutral-100: hsl(0, 0%, 100%);
-  --clr-neutral-400: hsl(142, 90%, 61%);
+  --clr-neutral-400: #22d3ee;
   --clr-neutral-200: #22d3ee;
   --bg-top:#0f172a;
   --bg-bottom:#1e293b;
@@ -459,9 +459,10 @@ nav ul li a {
 }
 
 .wrapper-for-all-projects {
-  background: #1b1d1f;
-  padding: 0 0 60px 0;
+  background: #111827;
+  padding: 4rem 0;
 }
+
 .technologies-used {
   display: flex;
   justify-content: space-around;
@@ -470,37 +471,63 @@ nav ul li a {
 /*card*/
 /*single cards*/
 .card-1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../assets/img/coming\ soon.png");
-  background-size: cover;     
-  background-position: center;   
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../assets/img/coming soon.png");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  border-radius: 10px;           
+  border-radius: 10px;
 }
+
 .card-2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
     url("../assets/img/emailvalidation.png");
-  background-position: left;
-}
-.card-3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../assets/img/WeatherPPImage.png");
-}
-.card-4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../assets/img/coming\ soon.png");
-    background-size: cover;     
-  background-position: center;   
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  border-radius: 10px; 
+  border-radius: 10px;
 }
+
+.card-3 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../assets/img/WeatherPPImage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.card-4 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../assets/img/coming soon.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
 .card-5 {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
     url("../assets/img/cryptopimage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
+
 .card-6 {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
     url("../assets/img/Datatcleaner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 /*single cards*/
 .project-container {
@@ -511,22 +538,25 @@ nav ul li a {
   gap: 30px;
   height: auto;
 }
-.project-card:hover,
+.project-card:hover {
+  box-shadow: 0 0 25px rgba(34, 211, 238, 0.25);
+}
 .project-card:focus-within {
   transform: scale(1.05);
 }
 
 .project-card {
-  color: var(--clr-neutral-100);
-
+  color: var(--text);
   background-size: cover;
-  padding: 10rem 0 0;
+  background-position: center;
+  padding: 12rem 0 0;
   max-width: 35ch;
-  border-radius: 0.5rem;
+  min-height: 420px;
+  border-radius: 0.8rem;
   overflow: hidden;
-  transition: transform 0.5s ease;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
   text-align: center;
-  max-height: 470px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.35);
 }
 .card-content {
   --padding: 1.5rem;
@@ -561,8 +591,9 @@ nav ul li a {
   letter-spacing: 2.5px;
 }
 .card-body {
-  color: rgb(255 255 255 / 0.8);
-  padding: 10px 0;
+  color: rgba(248, 250, 252, 0.85);
+  padding: 1rem 0;
+  line-height: 1.5;
 }
 .card-title::after {
   content: "";
@@ -584,14 +615,19 @@ nav ul li a {
   cursor: pointer;
   display: inline-block;
   text-decoration: none;
-  color: var(--clr-neutral-900);
-  background-color: var(--clr-neutral-400);
-  padding: 0.5em 1.25em;
-  border-radius: 0.25em;
+  background: var(--accent);
+  color: var(--bg-top);
+  padding: .8rem 1.6rem;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: .3s ease;
 }
+
 .button-portfolio:hover,
 .button-portfolio:focus {
-  background-color: var(--clr-neutral-100);
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.5);
+}: var(--clr-neutral-100);
 }
 /*media queries*/
 
