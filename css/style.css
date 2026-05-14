@@ -13,7 +13,7 @@
   --accent-hover:#67e8f9;
 
   --white:#FFFFFF;
-  --square:rgba(255,255,255,.10);
+  --square:rgba(255,255,255,.05);
 }
 
 /*global*/
@@ -177,8 +177,8 @@ max-width: 25px;
   color: var(--clr-neutral-200);
 }
 .navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
+    background-color: rgba(15, 23, 42, 0.95) !important;
+    backdrop-filter: blur(10px);
 }
 .navbar {
   /*background-color: #f8f8f8;*/
@@ -337,6 +337,8 @@ nav ul li a {
   background: var(--square) !important;
   animation: animate 20s linear infinite;
   bottom: -150px;
+  filter: blur(1px);
+  transform: rotate(45deg);
 }
 .box-area li:nth-child(1) {
   left: 86%;
