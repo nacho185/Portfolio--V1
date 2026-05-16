@@ -13,7 +13,7 @@
   --accent-hover:#67e8f9;
 
   --white:#FFFFFF;
-  --square:rgba(255,255,255,.05);
+  --square:rgba(255,255,255,.035);
 }
 
 /*global*/
@@ -24,7 +24,7 @@
   
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.2;
   overflow-x: hidden;
   width: 100%;
@@ -140,7 +140,7 @@ max-width: 25px;
 }
 .branding-container {
   color: #f8fafc;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.1rem;
 }
 .branding-description {
@@ -211,8 +211,9 @@ nav ul {
 
 .navbar ul li a {
   padding: 10px;
-  font-weight: 500;
   letter-spacing: 0.5px;
+  font-size: 1rem;
+  font-weight: 600;
 }
 nav ul li a {
   color: #f8fafc;
@@ -272,10 +273,10 @@ nav ul li a {
 .animation-area-text h1 {
   color: #333;
   padding-top: 90px;
-  font-size: 4.0rem;
+  font-size: 3.9rem;
   line-height: 1.1;
   max-width: 1000px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 
