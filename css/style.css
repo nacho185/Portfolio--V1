@@ -306,7 +306,9 @@ nav ul li a {
   .animation-area-text h1 {
     font-size: 1.5rem;
   }
-
+  #just-for-button-onclick{
+    margin-top: 245px !important;
+  }
   .navbar {
     padding-top: 22px;
   }
@@ -677,12 +679,13 @@ nav ul li a {
   }
 
   #just-for-button-onclick {
-    background-color: rgba(15, 23, 42, 0.98);
-    top: 60px;
+    background-color: #0f172a;
+    margin-top: 250px;
     display: none;
     position: fixed;
     right: 0;
-    width: 100%;
+    width: 100%; 
+    
     height: auto;
     padding: 1rem 0;
   }
