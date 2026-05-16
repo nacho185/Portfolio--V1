@@ -248,6 +248,7 @@ nav ul li a {
   margin: 0 auto;
   text-align: center;
   padding-top: 200px;
+  padding-inline: 1rem;
 }
 .resume {
   cursor: pointer;
@@ -273,32 +274,24 @@ nav ul li a {
 .animation-area-text h1 {
   color: #333;
   padding-top: 90px;
-  font-size: 3.9rem;
+  font-size: clamp(2rem, 5vw, 3.9rem);
   line-height: 1.1;
-  max-width: 1000px;
   font-weight: 800;
+  max-width: 26ch;
 }
 
 
 @media (max-width: 1170px) {
-  .animation-area-text h1 {
-    font-size: 3rem;
-  }
+  
 }
 @media (max-width: 775px) {
-  .animation-area-text h1 {
-    font-size: 2.5rem;
-  }
+  
 }
 @media (max-width: 600px) {
-  .animation-area-text h1 {
-    font-size: 2.5rem;
-  }
+  
 }
 @media (max-width: 540px) {
-  .animation-area-text h1 {
-    font-size: 2rem;
-  }
+  
   .animation-area {
     overflow-x: hidden;
     background: linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
@@ -309,9 +302,7 @@ nav ul li a {
 }
 
 @media (max-width: 425px) {
-  .animation-area-text h1 {
-    font-size: 1.5rem;
-  }
+  
   #just-for-button-onclick{
     margin-top: 245px !important;
   }
