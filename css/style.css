@@ -80,6 +80,7 @@ max-width: 25px;
 #button-for-all-devices {
   display: none;
   font-size: 2rem;
+  color:var(--accent) ;
 }
 /*animation*/
 /*start load*/
@@ -171,6 +172,8 @@ max-width: 25px;
 .activeLinkClass {
   color: var(--accent);
   border-bottom: 2px solid var(--accent);
+  display: inline-block;
+  padding-bottom: 4px;
 }
 .navbar ul li a:hover {
   cursor: pointer;
@@ -663,9 +666,9 @@ nav ul li a {
     margin-top: 23px;
   }
   .navbar ul li {
-    padding: 6px;
-    margin: 10px;
-  }
+  padding: 4px;
+  margin: 0;
+}
   .navbar ul li:nth-child(4) {
     padding-bottom: 15px;
   }
@@ -674,13 +677,14 @@ nav ul li a {
   }
 
   #just-for-button-onclick {
-    background-color: #333;
-    color: #fff;
+    background-color: rgba(15, 23, 42, 0.98);
+    top: 60px;
     display: none;
     position: fixed;
     right: 0;
-    top: 63px;
     width: 100%;
+    height: auto;
+    padding: 1rem 0;
   }
   .my-hello {
     font-size: 3.5rem;
