@@ -1,386 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <!--start loader-->
-    <section class="loader-container">
-      <div class="loader"></div>
-    </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--end start loader-->
-    <!--progress bar-->
-    <div id="progressbar"></div>
-    <div id="scrollPath"></div>
-    <!--navbar and front carousel-->
+  <title>Ignacio Aguirre | Web Development & Cybersecurity</title>
 
-    <div id="this-navbar" class="container flex navbar navbar-fixed-top">
-      <div class="branding-container">
-        <h1 class="branding">Ignacio Aguirre</h1>
-        <p class="branding-description">Cybersecurity + Web Development</p>
-      </div>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
 
-      
+<body>
 
-      <nav id="navContent" class="nav-tag-nav-bar">
-        <div class="media-links">
-          <a  href="https://github.com/nacho185">
-            <i class="fab fa-github"></i
-          ></a>
-        </div>
-        
-        <ul class="just-for-button-onclick-class" id="just-for-button-onclick">
-          <li>
-            <a href="#animationWrapper" class="activeLinkClass">Home</a>
-          </li>
-
-          <li>
-            <a href="#portfolio-link">Portfolio</a>
-          </li>
-
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
-
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <i id="button-for-all-devices" class="fas fa-bars media-bars"></i>
+  <!-- navbar -->
+  <div id="this-navbar" class="container flex navbar navbar-fixed-top">
+    <div class="branding-container">
+      <h1 class="branding">Ignacio Aguirre</h1>
+      <p class="branding-description">Web Development + Cybersecurity</p>
     </div>
 
-    <section id="animationWrapper" class="animation-area">
-      <div class="animation-area-text">
-        <h1
-          id="my-hello-spans"
-          data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          class="my-hello"
-        >
-          CS student focused on cybersecurity and secure web development.
-        </h1>
-        
-        <a
-          data-aos="fade-up"
-          data-aos-offset="150"
-          data-aos-delay="50"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          target="_blank"
-          href="https://nacho185.github.io/Resume-dev/"
-          class="resume"
-          >View Resume</a
-        >
+    <nav id="navContent" class="nav-tag-nav-bar">
+      <div class="media-links">
+        <a href="https://github.com/nacho185" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
       </div>
-      <div>
-        <ul class="box-area">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </div>
-    </section>
 
-    <!--end navbar and front carousel-->
-     <!--projects-->
+      <ul id="just-for-button-onclick">
+        <li><a href="#animationWrapper">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-    <section id="portfolio-link" class="wrapper-for-all-projects">
-      <div class="portfolio-intro">
-        <h1>Projects</h1>
-      </div>
-      <div class="project-container">
-        <div
-          data-aos=""
-          data-aos-offset="200"
-          data-aos-delay="150"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          class="project-card card-3"
-        >
-        <div class="card-content">
-          <h2 class="card-title">Nimbus</h2>
-          
-          <p class="card-body"> Real time weather application with live forecasts and location search. </p>
-            <div class="technologies-used">
-              <i class="fab fa-html5"></i>
-              <i class="fab fa-css3-alt"></i>
-              <i class="fab fa-js"></i>
-            </div>
-          
-          
-          <a
-            target="_blank"
-            href="https://nacho185.github.io/weather-app-v2/"
-            class="button-portfolio"
-            >Live Code</a
-          >
-        </div>
-        </div>
-        <div
-          data-aos=""
-          data-aos-offset="200"
-          data-aos-delay="150"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          class="project-card card-6"
-        >
-          <div class="card-content">
-            <h2 class="card-title">CSV Cleaner</h2>
-            
-            <p class="card-body">Upload a file, and the tool will remove duplicates, fix text formatting, and fill missing values, providing you with a cleaned version ready for use. </p>
-              <div class="technologies-used">
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-python" style="color:#4584b6;"></i>
-              </div>
-            
-         
-            <a
-              target="_blank"
-              href="https://data-cleaner-5qdn.onrender.com/"
-              class="button-portfolio"
-              >Live Code</a
-            >
-          </div>
-        </div>
-        
-        <div
-          data-aos=""
-          data-aos-offset="200"
-          data-aos-delay="150"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          class="project-card card-5"
-        >
-          <div class="card-content">
-            <h2 class="card-title">Crypto Tracker</h2>
-           
-            <p class="card-body">
-              Enter the name of a cryptocurrency, and get the current price, market data, and trends from multiple exchanges using live API data.
-            
-              <div class="technologies-used">
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-js"></i>
-                <i class="fab fa-react"></i>
-              </div>
-            </p>
-          
-            <a
-              target="_blank"
-              href="https://nacho185.github.io/crypto-tracker/"
-              class="button-portfolio"
-              >Live Code</a
-            >
-          </div>
-        </div>
-        <div
-          data-aos=""
-          data-aos-offset="200"
-          data-aos-delay="150"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          class="project-card card-2"
-        >
-          <div class="card-content">
-            <h2 class="card-title">Email Validator</h2>
-            
-            <p class="card-body">This tool also identifies disposable email addresses and helps you avoid spam by validating whether an email is free or temporary.</p>
-              
-              <div class="technologies-used">
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-js"></i>
-            
-              </div>
-              
-            <a
-              target="_blank"
-              href="https://nacho185.github.io/Email-Validation/"
-              class="button-portfolio"
-              >Live Code</a
-            >
-            
-          </div>
-        </div>
-        <div
-          data-aos=""
-          data-aos-offset="200"
-          data-aos-delay="150"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          class="project-card card-1"
-        >
-          <div class="card-content">
-            <h2 class="card-title">Coming Soon</h2>
-            <p class="card-body">
-               New project currently in development.
-            </p>
-             
-              <div class="technologies-used">
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-js"></i> 
-                <i class="fab fa-sass"></i>
-              </div>
-            
-            <a
-              target="_blank"
-              href=""
-              class="button-portfolio"
-              >Live Code</a
-            >
-          </div>
-        </div> 
-
-        <div
-          data-aos=""
-          data-aos-offset="200"
-          data-aos-delay="150"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          class="project-card card-4"
-        >
-          <div class="card-content">
-            <h2 class="card-title">Coming Soon</h2>
-            <p class="card-body">
-              New project currently in development.
-            </p>
-            
-              <div class="technologies-used">
-                <div class="skills-no-icon-no-icon-02-butFor-project">
-                  <img class="skills-no-icon-no-icon-02-butFor-project-img" src="./assets/img/wordpressIcon-forwebsite.png" alt="">
-                </div>
-                <i class="fab fa-html5"></i> 
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-js"></i>
-                
-              </div>
-           
-            <a
-              target="_blank"
-              href="https://ignacioaguirre.net/"
-              class="button-portfolio"
-              >Live Code</a
-            >
-          </div>
-        </div>
-        
-      </div>
-    </section>
-
-    <!--end projects-->
-   <!--skills-->
-   <section id="skills" class="skills-wrapper">
-     <div class="skills-header"><h2 >Skills</h2></div>
-     
-     <div class="container">
-      <div class="skills-no-icon no-icon-02">
-        <img src="./assets/img/wordpressIcon-forwebsite.png" alt="">
-      </div>
-        <i class="fab fa-html5"></i>
-        <i class="fab fa-css3-alt"></i>
-        <i class="fab fa-js"></i>
-        <i class="fab fa-react"></i>
-        <i class="fab fa-git-square"></i>
-        <div class="skills-no-icon">
-          <i class="fab fa-python" style="color:#4584b6;"></i>
-        </div>
-        <i class="fab fa-sass"></i>
-        
-     </div>
-   </section>
-   <!--end skills-->
-   
-<!--contact section-->
-<section id="contact" class="contact-wrapper">
-  <div class="contact-header"><h1>Let’s Connect</h1></div>
-  <p class="contact-subtitle">Open to internships, freelance work, and software development opportunities.</p>
-  <div class="container">
-    <div class="contact-01">
-      <a href="mailto:ignacio13542@gmail.com">
-        <i class="fas fa-envelope"></i>
-      </a>
-    </div>
-    <div class="contact-04">
-      <a href="https://www.linkedin.com/in/ignacio-a-17b2a31ba/">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </div>
-    <div class="contact-02">
-      <a  target="_blank" href="https://github.com/nacho185"><a target="_blank" href="https://github.com/nacho185">
-  <i style="font-size: 4.5rem; color: #f8f8f8;" class="fab fa-github"></i>
-</a>
-</a>
-    </div>
-    <div class="contact-03">
-      <a href="tel:346-212-8318">
-        <i class="fas fa-phone-square"></i>
-      </a>
-    </div>
+    <button id="button-for-all-devices" aria-label="Open navigation">
+      <i class="fas fa-bars"></i>
+    </button>
   </div>
-</section>
-<!--end contact section-->
-    
 
-    <footer class="footer">
-  <small class="footer-text">
-    © Copyright
-    <script>
-      document.write(new Date().getFullYear());
-    </script>
-    Ignacio Aguirre — Built with HTML, CSS, JavaScript & caffeine ☕
-  </small>
-</footer>
-    <!--scripts-->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/script.js"></script>
-  </body>
+  <!-- hero -->
+  <section id="animationWrapper" class="animation-area">
+    <div class="animation-area-text">
+      <div class="hero-layout">
+
+        <div class="hero-main">
+          <p class="hero-small-text">Computer Science student</p>
+
+          <h1 id="my-hello-spans" class="my-hello">
+            I build web projects and learn how systems work.
+          </h1>
+
+          <p class="hero-description">
+            I'm focused on web development, C++, and cybersecurity.
+            I learn best by building things, testing them, and fixing what breaks.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="resume">View Projects</a>
+
+            <a href="https://nacho185.github.io/Resume-dev/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="resume resume-secondary">
+              Resume
+            </a>
+          </div>
+
+          <div class="hero-links">
+            <a href="https://github.com/nacho185" target="_blank" rel="noopener noreferrer">
+              GitHub ↗
+            </a>
+
+            <a href="https://www.linkedin.com/in/ignacio-a-17b2a31ba/"
+               target="_blank"
+               rel="noopener noreferrer">
+              LinkedIn ↗
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-side">
+          <p class="hero-side-label">Currently</p>
+
+          <div class="current-item">
+            <span>01</span>
+            <p>C++ fundamentals</p>
+          </div>
+
+          <div class="current-item">
+            <span>02</span>
+            <p>Linux & security</p>
+          </div>
+
+          <div class="current-item">
+            <span>03</span>
+            <p>Building web projects</p>
+          </div>
+
+          <div class="current-item">
+            <span>04</span>
+            <p>Open to internships</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <ul class="box-area">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </section>
+
+  <!-- projects -->
+  <section class="projects" id="projects">
+    <div class="projectsHeader">
+      <p class="sectionLabel">Projects</p>
+      <h2>Selected work.</h2>
+      <p class="projectsIntro">Projects I can walk through, including the code behind them.</p>
+    </div>
+
+    <div class="featuredProject">
+      <div class="featuredInfo">
+        <p class="projectType">01 / Featured</p>
+        <h3>Weather App</h3>
+
+        <p class="projectDescription">
+          A responsive weather app built to display weather information
+          in a clean interface across desktop and mobile screens.
+        </p>
+
+        <p class="projectStack">HTML / CSS / JavaScript</p>
+
+        <div class="projectLinks">
+          <a href="https://nacho185.github.io/weather-app-v2/" target="_blank">Live Demo ↗</a>
+          <a href="https://github.com/nacho185/weather-app-v2" target="_blank">Source Code ↗</a>
+        </div>
+      </div>
+
+      <div class="featuredImage">
+        <img src="./assets/img/WeatherAppPreview.png" alt="Weather App project">
+      </div>
+    </div>
+
+    <div class="projectGrid">
+
+      <div class="projectCard">
+        <div class="projectImage">
+          <img src="./assets/img/DataCleanerPreview.png" alt="CSV Cleaner project">
+        </div>
+
+        <div class="projectInfo">
+          <p class="projectType">02 / Web Tool</p>
+          <h3>CSV Cleaner</h3>
+
+          <p class="projectDescription">
+            A browser-based tool for cleaning and organizing CSV data
+            through a straightforward interface.
+          </p>
+
+          <p class="projectStack">HTML / CSS / JavaScript</p>
+
+          <div class="projectLinks">
+            <a href="https://data-cleaner-5qdn.onrender.com/" target="_blank">Live Demo ↗</a>
+            <a href="https://github.com/nacho185/data_cleaner" target="_blank">Source Code ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="projectCard">
+        <div class="projectImage">
+          <img src="./assets/img/OldPortfolioPreview.png" alt="Previous portfolio website">
+        </div>
+
+        <div class="projectInfo">
+          <p class="projectType">03 / Portfolio</p>
+          <h3>Previous Portfolio</h3>
+
+          <p class="projectDescription">
+            The previous version of my personal portfolio, built with
+            a dark blue and teal design before this redesign.
+          </p>
+
+          <p class="projectStack">HTML / CSS / JavaScript</p>
+
+          <div class="projectLinks">
+            <a href="#" target="_blank">View Version ↗</a>
+            <a href="#" target="_blank">Source Code ↗</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="moreProjects">
+      <a href="https://github.com/nacho185" target="_blank" rel="noopener noreferrer">
+        See more on GitHub ↗
+      </a>
+    </div>
+  </section>
+
+  <!-- skills -->
+  <section id="skills" class="skills-wrapper">
+    <div class="skills-header">
+      <p class="sectionLabel">Skills</p>
+      <h2>What I work with.</h2>
+      <p>Languages and tools I'm using across school and personal projects.</p>
+    </div>
+
+    <div class="container skills-container">
+
+      <div class="skill-group">
+        <p class="skill-number">01</p>
+        <h3>Web</h3>
+
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <p class="skill-number">02</p>
+        <h3>Programming</h3>
+
+        <ul>
+          <li>C++</li>
+          <li>Object-oriented basics</li>
+          <li>Problem solving</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <p class="skill-number">03</p>
+        <h3>Tools & Systems</h3>
+
+        <ul>
+          <li>Git / GitHub</li>
+          <li>Linux</li>
+          <li>Networking basics</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact" class="contact-wrapper">
+    <div class="contact-content">
+      <p class="sectionLabel dark-section-label">Contact</p>
+      <h1>Let's talk.</h1>
+
+      <p class="contact-subtitle">
+        I'm looking for internships and junior opportunities where
+        I can contribute, keep learning, and build real software.
+      </p>
+
+      <a href="mailto:ignacio13542@gmail.com" class="contact-button">
+        Email Me
+      </a>
+
+      <div class="contact-links">
+        <a href="https://github.com/nacho185" target="_blank" rel="noopener noreferrer">
+          GitHub ↗
+        </a>
+
+        <a href="https://www.linkedin.com/in/ignacio-a-17b2a31ba/"
+           target="_blank"
+           rel="noopener noreferrer">
+          LinkedIn ↗
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <small class="footer-text">© 2026 Ignacio Aguirre</small>
+      <small class="footer-text">Built with HTML, CSS, JavaScript & caffeine ☕</small>
+    </div>
+  </footer>
+
+  <script>
+    const button = document.getElementById("button-for-all-devices");
+    const menu = document.getElementById("just-for-button-onclick");
+
+    button.addEventListener("click", function () {
+      menu.classList.toggle("showMenu");
+    });
+
+    const menuLinks = menu.getElementsByTagName("a");
+
+    for (let i = 0; i < menuLinks.length; i++) {
+      menuLinks[i].addEventListener("click", function () {
+        menu.classList.remove("showMenu");
+      });
+    }
+  </script>
+
+</body>
 </html>
